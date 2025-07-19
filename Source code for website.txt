@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EcoQuest: Save the Planet</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: century gothic, sans-serif;
+      background-color: #f4faf4;
+      color: #2a4d24;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background: #2a4d24;
+      color: #f4faf4;
+      padding: 1rem;
+      text-align: center;
+    }
+    .hero {
+      background: url('https://example.com/forest-hero.jpg') center/cover no-repeat;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+    .hero::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(42,77,36,0.6);
+    }
+    .hero h1 {
+      position: relative;
+      font-size: 3rem;
+      margin: 0;
+    }
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .feature {
+      background: #ffffff;
+      border: 2px solid #d4edda;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .feature:hover {
+      transform: translateY(-5px);
+    }
+    .feature img {
+      width: 100%;
+      border-radius: 6px;
+    }
+    .feature h3 {
+      margin-top: 0.5rem;
+    }
+    footer {
+      background: #e9f5e9;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h2>Eco-Hero: A quest to restore environmental stability 🌍</h2>
+</header>
+
+<section class="hero">
+  <h1>Let's create green tommorow</h1>
+</section>
+
+<main>
+  <div class="features">
+    <div class="feature">
+      <img src="https://example.com/planet-icon.png" alt="Eco‑challenges">
+      <h3>Interactive Challenges</h3>
+      <p>Solve puzzles to clean oceans, plant forests, and reduce carbon footprints.</p>
+    </div>
+    <div class="feature">
+      <img src="https://example.com/community-icon.png" alt="Community">
+      <h3>Create your own global network</h3>
+      <p>Team up with other players worldwide to restore ecosystems together.</p>
+    </div>
+    <div class="feature">
+      <img src="https://example.com/renewables-icon.png" alt="Renewable energy">
+      <h3>Build Renewable Energy</h3>
+      <p>Learn about solar, wind, and water energy through immersive gameplay.</p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2025 EcoQuest Initiative. Designed with love for our planet.</p>
+</footer>
+
+</body>
+</html>
